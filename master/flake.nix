@@ -11,7 +11,6 @@
   inputs.src-ladder-master.ref   = "refs/heads/master";
   inputs.src-ladder-master.owner = "ryukoposting";
   inputs.src-ladder-master.repo  = "nim-ladder";
-  inputs.src-ladder-master.dir   = "";
   inputs.src-ladder-master.type  = "gitlab";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
