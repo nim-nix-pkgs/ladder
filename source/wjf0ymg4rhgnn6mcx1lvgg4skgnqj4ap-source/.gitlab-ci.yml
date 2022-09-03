@@ -1,0 +1,10 @@
+image: registry.gitlab.com/ryukoposting/nim-fnv
+
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+    - nimble test
+
